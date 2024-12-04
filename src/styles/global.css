@@ -1,0 +1,2601 @@
+.App {
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+}@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+
+.@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+}@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+
+@@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+}@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+
+.@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+}@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+
+.@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+}@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+
+@@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+ @keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+}@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: shimmer 2.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.1),
+    transparent
+  );
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFF'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 4s infinite;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 2000' %3E%3Cg fill='%23FFD700'%3E%3Ccircle cx='1000' cy='1000' r='1'/%3E%3C/g%3E%3C/svg%3E") repeat;
+  animation: twinkle 8s infinite;
+}
+
+/* Custom colors */
+:root {
+  --navy-900: #000B2E;
+  --navy-800: #001449;
+  --navy-700: #001D6E;
+  --gold: #FFD700;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy-900 {
+  background-color: var(--navy-900);
+}
+
+.bg-navy-800 {
+  background-color: var(--navy-800);
+}
+
+.bg-navy-700 {
+  background-color: var(--navy-700);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
